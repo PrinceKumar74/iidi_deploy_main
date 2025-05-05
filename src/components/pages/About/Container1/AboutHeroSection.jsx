@@ -11,7 +11,7 @@ const AboutHeroSection = () => {
         backgroundBlendMode: "multiply",
       }}
     >
-      {/* Gradient overlay */}
+
       <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-90"></div>
 
       <div className="max-w-6xl mx-auto relative z-10">
@@ -21,9 +21,7 @@ const AboutHeroSection = () => {
           </h2>
 
           <p className="md:text-lg leading-relaxed">
-            One of Australia's original tertiary institutions, RMIT University
-            enjoys an international reputation for excellence in education,
-            research, and engagement with industry and community.
+          The Data Science course offered by the International Institute of Data Intelligence(IIDI) is curated with help of the industry experts and practitioners. IIDI's rigourous curriculum is designed so that you learn all the essential skills and have right guidance to help you secure your dream job in data science.
           </p>
         </div>
       </div>
