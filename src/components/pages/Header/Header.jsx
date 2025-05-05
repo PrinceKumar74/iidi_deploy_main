@@ -64,7 +64,7 @@ const Navigation = () => {
               />
               
                 {/* For UpperCase  */}
-                <div className="text-xl font-bold uppercase w-[270px] text-white">International Institute of Data Intelligence</div>
+                <div className="text-xl font-bold uppercase w-[270px] text-white z-50">International Institute of Data Intelligence</div>
                 
             
             </Link>

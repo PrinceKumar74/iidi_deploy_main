@@ -10,7 +10,7 @@ const StatisticsSection = () => {
           <div className="relative overflow-hidden p-6 sm:p-8 text-center border-t-0 border-l-0 border-[#b42638] group">
             <div className="absolute inset-0 bg-[#b42638] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-[2000ms] ease-in-out"></div>
             <div className="relative z-10 text-3xl sm:text-4xl font-bold text-gray-900 mb-2 group-hover:text-black transition-all duration-300">
-              7+
+              2+
             </div>
             <div className="relative z-10 text-xs sm:text-sm font-medium text-gray-500 uppercase tracking-wider group-hover:text-black transition-all duration-300">
               COUNTRIES
@@ -21,7 +21,7 @@ const StatisticsSection = () => {
           <div className="relative overflow-hidden p-6 sm:p-8 text-center border-t-0 border-l-2 border-[#b42638] border-r-0 group">
             <div className="absolute inset-0 bg-[#b42638] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-[2000ms] ease-in-out"></div>
             <div className="relative z-10 text-3xl sm:text-4xl font-bold text-gray-900 mb-2 group-hover:text-black transition-all duration-300">
-              107+
+              15+
             </div>
             <div className="relative z-10 text-xs sm:text-sm font-medium text-gray-500 uppercase tracking-wider group-hover:text-black transition-all duration-300">
               CAMPUSES
@@ -33,7 +33,7 @@ const StatisticsSection = () => {
           <div className="relative overflow-hidden p-6 sm:p-8 text-center border-t-2 border-b-2 lg:border-b-0  lg:border-t-0 lg:border-l-2 border-[#b42638] col-span-2 lg:col-span-1 group">
             <div className="absolute inset-0 bg-[#b42638] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-[2000ms] ease-in-out"></div>
             <div className="relative z-10 text-3xl sm:text-4xl font-bold text-gray-900 mb-2 group-hover:text-black transition-all duration-300">
-              350+
+              50+
             </div>
             <div className="relative z-10 text-xs sm:text-sm font-medium text-gray-500 uppercase tracking-wider group-hover:text-black transition-all duration-300">
               GLOBAL CORPORATE PARTNERS
@@ -44,7 +44,7 @@ const StatisticsSection = () => {
           <div className="relative overflow-hidden p-6 sm:p-8 text-center border-t-0 border-l-0 border-[#b42638] group">
             <div className="absolute inset-0 bg-[#b42638] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-[2000ms] ease-in-out"></div>
             <div className="relative z-10 text-3xl sm:text-4xl font-bold text-gray-900 mb-2 group-hover:text-black transition-all duration-300">
-              15 Million+
+              10 Thousand+
             </div>
             <div className="relative z-10 text-xs sm:text-sm font-medium text-gray-500 uppercase tracking-wider group-hover:text-black transition-all duration-300">
             TRAINING HOURS COMPLETED
@@ -55,7 +55,7 @@ const StatisticsSection = () => {
           <div className="relative overflow-hidden p-6 sm:p-8 text-center border-t-0 border-l-2 border-[#b42638] border-r-0 group">
             <div className="absolute inset-0 bg-[#b42638] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-[2000ms] ease-in-out"></div>
             <div className="relative z-10 text-3xl sm:text-4xl font-bold text-gray-900 mb-2 group-hover:text-black transition-all duration-300">
-              50000+
+              10000+
             </div>
             <div className="relative z-10 text-xs sm:text-sm font-medium text-gray-500 uppercase tracking-wider group-hover:text-black transition-all duration-300">
             TRAINED STUDENTS
@@ -67,7 +67,7 @@ const StatisticsSection = () => {
           <div className="relative overflow-hidden p-6 sm:p-8 text-center border-t-2 lg:border-t-0 lg:border-l-2 border-[#b42638] col-span-2 lg:col-span-1 group">
             <div className="absolute inset-0 bg-[#b42638] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-[2000ms] ease-in-out"></div>
             <div className="relative z-10 text-3xl sm:text-4xl font-bold text-gray-900 mb-2 group-hover:text-black transition-all duration-300">
-              7000+
+              70+
             </div>
             <div className="relative z-10 text-xs sm:text-sm font-medium text-gray-500 uppercase tracking-wider group-hover:text-black transition-all duration-300">
             INDUSTRY TRAINERS

@@ -24,14 +24,12 @@ const HeroSection = () => {
               Turn data into decisions, drive growth, and power smarter business strategies today.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              
-              
-              <button className="px-8 py-3 bg-[#b42638] text-white font-semibold rounded hover:bg-[#8a1a2a] transition-all duration-300 shadow-lg hover:shadow-xl z-50" onClick={() => navigate('/course')}>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">              
+              <button className="px-8 py-3 bg-[#b42638] text-white font-semibold rounded hover:bg-[#8a1a2a] transition-all duration-300 shadow-lg hover:shadow-xl z-40" onClick={() => navigate('/course')}>
                 Get Started
               </button>
              
-              <button className="px-8 py-3 border-2 border-white text-white font-semibold rounded hover:bg-white hover:text-black transition-all duration-300 z-50" onClick={()=> navigate('/about')}>
+              <button className="px-8 py-3 border-2 border-white text-white font-semibold rounded hover:bg-white hover:text-black transition-all duration-300 z-40" onClick={()=> navigate('/about')}>
                 Learn More
               </button>
             </div>
