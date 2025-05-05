@@ -8,7 +8,7 @@ const AboutIIDI = () => {
       <div className="max-w-6xl mx-auto">
         {/* Main Heading */}
         <h1 className="text-4xl font-bold text-center mb-12 text-gray-900">
-          IIDI is a global Institute of technology, design and enterprise
+          IIDI is a global Institute of technology
         </h1>
         
         {/* Introductory Paragraph */}
