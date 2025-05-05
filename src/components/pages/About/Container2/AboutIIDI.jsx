@@ -8,13 +8,13 @@ const AboutIIDI = () => {
       <div className="max-w-6xl mx-auto">
         {/* Main Heading */}
         <h1 className="text-4xl font-bold text-center mb-12 text-gray-900">
-          IIDI is a global university of technology, design and enterprise
+          IIDI is a global Institute of technology, design and enterprise
         </h1>
         
         {/* Introductory Paragraph */}
         <p className="text-lg text-gray-700 text-center max-w-4xl mx-auto mb-16">
-          IIDI is a world leader in Art and Design; Architecture; Education; Engineering; 
-          Development; Computer Science and Information Systems; Business and Management; 
+          IIDI is a world leader in Data Science, Information Technology; Artificial Intelligence; Machine Learning; Deep Learning; 
+          Development; Computer Science and Information Systems; Information Technology; Business Analytics; Business Intelligence;
           and Communication and Media Studies.
         </p>
 
