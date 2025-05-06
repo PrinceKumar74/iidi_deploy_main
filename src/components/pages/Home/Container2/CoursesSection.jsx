@@ -20,7 +20,7 @@ const CoursesSection = () => {
       title: "Data Science & AI Certification",
       description: "Master machine learning algorithms and data analysis techniques with Python and TensorFlow through real-world projects.",
       icon: <FaChartLine className="text-3xl text-[#b42638]" />,
-      duration: "12 Weeks",
+      duration: "6 Months",
       highlights: ["Python Programming", "Machine Learning", "Neural Networks", "Industry Projects"]
     },
     {
@@ -28,7 +28,7 @@ const CoursesSection = () => {
       title: "Financial Analytics Certification",
       description: "Learn risk assessment, portfolio optimization, and financial modeling techniques used by top financial institutions.",
       icon: <FaGraduationCap className="text-3xl text-[#b42638]" />,
-      duration: "10 Weeks",
+      duration: "6 Months",
       highlights: ["Risk Analysis", "Investment Strategies", "Financial Modeling", "Excel & Python"]
     },
     {
@@ -36,7 +36,7 @@ const CoursesSection = () => {
       title: "Marketing Analytics Certification",
       description: "Transform marketing strategies with data-driven insights using Google Analytics and social media metrics interpretation.",
       icon: <FaUserTie className="text-3xl text-[#b42638]" />,
-      duration: "8 Weeks",
+      duration: "6 Months",
       highlights: ["Customer Segmentation", "Campaign Analysis", "ROI Measurement", "Google Analytics"]
     },
     {
@@ -44,7 +44,7 @@ const CoursesSection = () => {
       title: "Web Development Certification",
       description: "Build modern, responsive websites and applications with HTML/CSS, JavaScript, and popular frameworks like React.",
       icon: <FaLaptopCode className="text-3xl text-[#b42638]" />,
-      duration: "14 Weeks",
+      duration: "6 Months",
       highlights: ["Frontend Development", "React.js", "Node.js", "Full Stack Projects"]
     },
     {
@@ -52,7 +52,7 @@ const CoursesSection = () => {
       title: "HR Analytics Certification",
       description: "Use data to optimize HR processes, measure employee engagement, and improve organizational performance.",
       icon: <FaUserTie className="text-3xl text-[#b42638]" />,
-      duration: "6 Weeks",
+      duration: "6 Months",
       highlights: ["Employee Retention", "Workforce Analytics", "HR Metrics", "Data Visualization"]
     },
     {
@@ -60,7 +60,7 @@ const CoursesSection = () => {
       title: "Certification in MEAN & MERN Stack",
       description: "Build modern, responsive websites and web applications with cutting-edge technologies.",
       icon: <FaCertificate className="text-3xl text-[#b42638]" />,
-      duration: "8 Weeks",
+      duration: "6 Months",
       highlights: ["Anglular", "Node.js", "MongoDB", "Express.js"]
     }
   ];

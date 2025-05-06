@@ -206,7 +206,7 @@ const Footer = () => {
           {/* Logo */}
           <div>
             <span className="ml-2 text-gray-400">
-              © 2024. All Rights Reserved
+              © 2025. All Rights Reserved
             </span>
           </div>
 

@@ -25,10 +25,10 @@ const BlogSection = () => {
   const articles = [
     {
       id: "digitalMarketing",
-      title: "The Future of Digital Marketing in 2024",
+      title: "The Future of Digital Marketing in 2025",
       excerpt: "How AI-powered personalization is transforming customer engagement strategies across industries.",
       category: "Marketing",
-      date: "May 15, 2024",
+      date: "May 1, 2025",
       image: digitalMarketing,
       readTime: "4 min read"
     },
@@ -37,16 +37,16 @@ const BlogSection = () => {
       title: "Remote Work Revolution: HR's New Challenges",
       excerpt: "Exploring how HR departments are adapting to hybrid work models and maintaining company culture.",
       category: "HR",
-      date: "May 10, 2024",
+      date: "May 3, 2025",
       image: remoteWork,
       readTime: "6 min read"
     },
     {
       id: "webDev",
-      title: "Web Development Trends Dominating 2024",
+      title: "Web Development Trends Dominating 2025",
       excerpt: "From WASM to serverless architectures - what every developer should know this year.",
       category: "Web Dev",
-      date: "May 5, 2024",
+      date: "May 5, 2025",
       image: webDev,
       readTime: "5 min read"
     },
@@ -55,7 +55,7 @@ const BlogSection = () => {
       title: "Data Science in Healthcare: Breakthroughs",
       excerpt: "How predictive analytics is revolutionizing patient care and treatment plans.",
       category: "Data Science",
-      date: "April 28, 2024",
+      date: "April 28, 2025",
       image: dataScience,
       readTime: "7 min read"
     },
@@ -64,7 +64,7 @@ const BlogSection = () => {
       title: "Crypto Markets: What Finance Pros Predict",
       excerpt: "Expert analysis on the future of digital currencies and blockchain adoption.",
       category: "Finance",
-      date: "April 22, 2024",
+      date: "April 22, 2025",
       image: crypto,
       readTime: "5 min read"
     },
@@ -73,7 +73,7 @@ const BlogSection = () => {
       title: "Ethical AI: The New Business Imperative",
       excerpt: "Why responsible AI frameworks are becoming mandatory for enterprises worldwide.",
       category: "Artificial Intelligence",
-      date: "April 15, 2024",
+      date: "April 15, 2025",
       image: ethicalAI,
       readTime: "8 min read"
     }

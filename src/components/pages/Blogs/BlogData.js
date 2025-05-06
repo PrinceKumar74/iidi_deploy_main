@@ -8,21 +8,21 @@ import remoteWork from "../../../assets/blogs/remoteWork.jpg";
 const articles = [
   {
     id: "digitalMarketing",
-    title: "The Future of Digital Marketing in 2024",
+    title: "The Future of Digital Marketing in 2025",
     excerpt:
       "How AI-powered personalization is transforming customer engagement strategies across industries.",
     category: "Marketing",
-    date: "May 15, 2024",
+    date: "May 1, 2025",
     image: digitalMarketing,
     readTime: "4 min read",
     content: `
       <div class="max-w-4xl mx-auto">
-        <h1 class="text-4xl font-bold text-gray-900 mb-6">The Future of Digital Marketing in 2024</h1>
-        <p class="text-gray-500 mb-8">Published on May 15, 2024 • 4 min read</p>
+        <h1 class="text-4xl font-bold text-gray-900 mb-6">The Future of Digital Marketing in 2025</h1>
+        <p class="text-gray-500 mb-8">Published on May 15, 2025 • 4 min read</p>
         
         <img src="${digitalMarketing}" alt="AI in digital marketing" class="rounded-xl mb-8 w-full h-auto object-cover shadow-md"/>
         
-        <p class="text-gray-700 mb-6 text-lg leading-relaxed">The digital marketing landscape is undergoing a seismic shift in 2024, driven primarily by advancements in artificial intelligence. What began as simple automation tools has evolved into sophisticated AI systems that can predict consumer behavior with startling accuracy.</p>
+        <p class="text-gray-700 mb-6 text-lg leading-relaxed">The digital marketing landscape is undergoing a seismic shift in 2025, driven primarily by advancements in artificial intelligence. What began as simple automation tools has evolved into sophisticated AI systems that can predict consumer behavior with startling accuracy.</p>
         
         <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-200">The Rise of Hyper-Personalization</h2>
         <p class="text-gray-700 mb-4">Modern AI algorithms now analyze thousands of data points to create micro-segments of audiences, enabling:</p>
@@ -80,7 +80,7 @@ const articles = [
           </ul>
         </div>
         
-        <p class="text-gray-700 mb-6 text-lg leading-relaxed">The marketers who thrive in 2024 will be those who harness AI's power while maintaining authentic human connections with their audiences.</p>
+        <p class="text-gray-700 mb-6 text-lg leading-relaxed">The marketers who thrive in 2025 will be those who harness AI's power while maintaining authentic human connections with their audiences.</p>
       </div>
     `,
   },
@@ -89,13 +89,13 @@ const articles = [
     "title": "Remote Work Revolution: HR's New Challenges",
     "excerpt": "Exploring how HR departments are adapting to hybrid work models and maintaining company culture.",
     "category": "HR",
-    "date": "May 10, 2024",
+    "date": "May 3, 2025",
     "image": "remoteWork",
     "readTime": "4 min read",
     "content": `
       <div class="max-w-4xl mx-auto">
         <h1 class="text-4xl font-bold text-gray-900 mb-6">Remote Work Revolution: HR's New Challenges</h1>
-        <p class="text-gray-500 mb-8">Published on May 10, 2024 • 4 min read</p>
+        <p class="text-gray-500 mb-8">Published on May 10, 2025 • 4 min read</p>
         
         <img src="${remoteWork}" alt="Remote work and HR challenges" class="rounded-xl mb-8 w-full h-auto object-cover shadow-md"/>
         
@@ -163,20 +163,20 @@ const articles = [
   },
   {
     "id": "webDev",
-    "title": "Web Development Trends Dominating 2024",
+    "title": "Web Development Trends Dominating 2025",
     "excerpt": "From WASM to serverless architectures - what every developer should know this year.",
     "category": "Web Dev",
-    "date": "May 5, 2024",
+    "date": "May 5, 2025",
     "image": webDev,
     "readTime": "4 min read",
     "content": `
       <div class="max-w-4xl mx-auto">
-        <h1 class="text-4xl font-bold text-gray-900 mb-6">Web Development Trends Dominating 2024</h1>
-        <p class="text-gray-500 mb-8">Published on May 5, 2024 • 4 min read</p>
+        <h1 class="text-4xl font-bold text-gray-900 mb-6">Web Development Trends Dominating 2025</h1>
+        <p class="text-gray-500 mb-8">Published on May 5, 2025 • 4 min read</p>
         
-        <img src="${webDev}" alt="Web development trends in 2024" class="rounded-xl mb-8 w-full h-auto object-cover shadow-md"/>
+        <img src="${webDev}" alt="Web development trends in 2025" class="rounded-xl mb-8 w-full h-auto object-cover shadow-md"/>
         
-        <p class="text-gray-700 mb-6 text-lg leading-relaxed">The world of web development is evolving at a rapid pace. In 2024, developers are embracing new tools, frameworks, and architectural patterns that promise faster performance, better scalability, and enhanced user experiences across devices and platforms.</p>
+        <p class="text-gray-700 mb-6 text-lg leading-relaxed">The world of web development is evolving at a rapid pace. In 2025, developers are embracing new tools, frameworks, and architectural patterns that promise faster performance, better scalability, and enhanced user experiences across devices and platforms.</p>
         
         <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-200">Emerging Technologies Reshaping the Industry</h2>
         <p class="text-gray-700 mb-4">Modern web development is no longer limited to HTML, CSS, and JavaScript. Developers are now leveraging cutting-edge technologies like:</p>
@@ -234,7 +234,7 @@ const articles = [
           </ul>
         </div>
         
-        <p class="text-gray-700 mb-6 text-lg leading-relaxed">As we move further into 2024, staying updated with these trends will be crucial for developers aiming to build fast, secure, and future-ready web applications that meet the demands of modern users and businesses alike.</p>
+        <p class="text-gray-700 mb-6 text-lg leading-relaxed">As we move further into 2025, staying updated with these trends will be crucial for developers aiming to build fast, secure, and future-ready web applications that meet the demands of modern users and businesses alike.</p>
       </div>
     `
   },
@@ -243,17 +243,17 @@ const articles = [
     "title": "Data Science in Healthcare: Breakthroughs",
     "excerpt": "How predictive analytics is revolutionizing patient care and treatment plans.",
     "category": "Data Science",
-    "date": "April 28, 2024",
+    "date": "April 28, 2025",
     "image": dataScience,
     "readTime": "4 min read",
     "content": `
       <div class="max-w-4xl mx-auto">
         <h1 class="text-4xl font-bold text-gray-900 mb-6">Data Science in Healthcare: Breakthroughs</h1>
-        <p class="text-gray-500 mb-8">Published on April 28, 2024 • 4 min read</p>
+        <p class="text-gray-500 mb-8">Published on April 28, 2025 • 4 min read</p>
         
         <img src="${dataScience}" alt="Data science in healthcare" class="rounded-xl mb-8 w-full h-auto object-cover shadow-md"/>
         
-        <p class="text-gray-700 mb-6 text-lg leading-relaxed">In 2024, data science continues to reshape the healthcare landscape by enabling faster diagnosis, personalized treatment, and improved patient outcomes. With the integration of machine learning and big data analytics, medical professionals are now equipped with tools that were once considered futuristic.</p>
+        <p class="text-gray-700 mb-6 text-lg leading-relaxed">In 2025, data science continues to reshape the healthcare landscape by enabling faster diagnosis, personalized treatment, and improved patient outcomes. With the integration of machine learning and big data analytics, medical professionals are now equipped with tools that were once considered futuristic.</p>
         
         <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-200">Predictive Analytics in Patient Care</h2>
         <p class="text-gray-700 mb-4">Hospitals and research institutions are increasingly relying on predictive models to anticipate health issues before they become critical:</p>
@@ -319,17 +319,17 @@ const articles = [
     "title": "Crypto Markets: What Finance Pros Predict",
     "excerpt": "Expert analysis on the future of digital currencies and blockchain adoption.",
     "category": "Finance",
-    "date": "April 22, 2024",
+    "date": "April 22, 2025",
     "image": crypto2,
     "readTime": "4 min read",
     "content": `
       <div class="max-w-4xl mx-auto">
         <h1 class="text-4xl font-bold text-gray-900 mb-6">Crypto Markets: What Finance Pros Predict</h1>
-        <p class="text-gray-500 mb-8">Published on April 22, 2024 • 4 min read</p>
+        <p class="text-gray-500 mb-8">Published on April 22, 2025 • 4 min read</p>
         
         <img src="${crypto2}" alt="Crypto markets and blockchain trends" class="rounded-xl mb-8 w-full h-auto object-cover shadow-md"/>
         
-        <p class="text-gray-700 mb-6 text-lg leading-relaxed">The cryptocurrency market has entered a new phase in 2024, marked by growing institutional interest, regulatory clarity, and renewed investor confidence. Financial experts are now taking a closer look at how digital assets will shape the future of global finance.</p>
+        <p class="text-gray-700 mb-6 text-lg leading-relaxed">The cryptocurrency market has entered a new phase in 2025, marked by growing institutional interest, regulatory clarity, and renewed investor confidence. Financial experts are now taking a closer look at how digital assets will shape the future of global finance.</p>
         
         <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-200">Institutional Adoption Gains Momentum</h2>
         <p class="text-gray-700 mb-4">Major financial institutions are shifting from skepticism to active participation in the crypto space:</p>
@@ -395,17 +395,17 @@ const articles = [
     "title": "Ethical AI: The New Business Imperative",
     "excerpt": "Why responsible AI frameworks are becoming mandatory for enterprises worldwide.",
     "category": "Artificial Intelligence",
-    "date": "April 15, 2024",
+    "date": "April 15, 2025",
     "image": ethicalAI2,
     "readTime": "4 min read",
     "content": `
       <div class="max-w-4xl mx-auto">
         <h1 class="text-4xl font-bold text-gray-900 mb-6">Ethical AI: The New Business Imperative</h1>
-        <p class="text-gray-500 mb-8">Published on April 15, 2024 • 4 min read</p>
+        <p class="text-gray-500 mb-8">Published on April 15, 2025 • 4 min read</p>
         
         <img src="${ethicalAI2}" alt="Ethical AI in business" class="rounded-xl mb-8 w-full h-auto object-cover shadow-md"/>
         
-        <p class="text-gray-700 mb-6 text-lg leading-relaxed">As artificial intelligence becomes deeply embedded in business operations, concerns around ethics, fairness, and accountability have moved to the forefront. In 2024, companies can no longer afford to ignore the societal impact of AI systems — ethical AI is now a strategic necessity, not just a compliance checkbox.</p>
+        <p class="text-gray-700 mb-6 text-lg leading-relaxed">As artificial intelligence becomes deeply embedded in business operations, concerns around ethics, fairness, and accountability have moved to the forefront. In 2025, companies can no longer afford to ignore the societal impact of AI systems — ethical AI is now a strategic necessity, not just a compliance checkbox.</p>
         
         <h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4 pb-2 border-b border-gray-200">The Rise of Responsible AI Frameworks</h2>
         <p class="text-gray-700 mb-4">Organizations across industries are adopting structured frameworks to ensure their AI systems operate transparently and fairly:</p>
