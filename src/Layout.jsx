@@ -1,6 +1,6 @@
 import { HelmetProvider } from 'react-helmet-async';
 import { Helmet } from 'react-helmet-async';
-import logo from '../src/assets/Logo2.ico'
+import logo from './assets/Logo2.ico'
 
 const Layout = ({ children, title, description }) => {
   return (

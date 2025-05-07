@@ -20,11 +20,13 @@ const AboutHeroSection = () => {
           </h2>
 
           <p className="md:text-lg leading-relaxed">
-            The Data Science course at the International Institute of Data
-            Intelligence (IIDI) is carefully designed with input from industry
-            experts and professionals. The program follows a rigorous curriculum
-            to ensure you gain all the essential skills, along with the right
-            guidance to help you land your dream job in data science.
+            The Institute for Innovation & Data Intelligence (IIDI) is a premier
+            education and training provider based in Australia, dedicated to
+            empowering individuals with future-ready skills in analytics, data
+            science, and technology. We specialize in delivering career-focused
+            certification programs designed for university students, early
+            professionals, and working individuals seeking to upskill or
+            transition into highgrowth fields.
           </p>
         </div>
       </div>

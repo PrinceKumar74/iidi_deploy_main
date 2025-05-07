@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { FaGraduationCap, FaClock, FaChartLine, FaLaptopCode, FaUserTie, FaCertificate } from 'react-icons/fa';
 import {Link, useNavigate} from 'react-router-dom';
@@ -18,50 +17,50 @@ const CoursesSection = () => {
     {
       id: "dataScience",
       title: "Data Science & AI Certification",
-      description: "Master machine learning algorithms and data analysis techniques with Python and TensorFlow through real-world projects.",
+      description: "Master the fundamentals of data science, including Python programming, machine learning, and artificial intelligence",
       icon: <FaChartLine className="text-3xl text-[#b42638]" />,
-      duration: "6 Months",
-      highlights: ["Python Programming", "Machine Learning", "Neural Networks", "Industry Projects"]
+      duration: "4-6 Months",
+      highlights: ["Python Programming", "Machine Learning", "Data Visualization", "Artificial Intelligence Applications"]
     },
     {
       id: "financialAnalytics",
       title: "Financial Analytics Certification",
-      description: "Learn risk assessment, portfolio optimization, and financial modeling techniques used by top financial institutions.",
+      description: "Learn to interpret financial data, build dynamic dashboards, and make informed business decisions using analytical tools. Ideal for finance professionals seeking to transition into data-driven roles.",
       icon: <FaGraduationCap className="text-3xl text-[#b42638]" />,
-      duration: "6 Months",
-      highlights: ["Risk Analysis", "Investment Strategies", "Financial Modeling", "Excel & Python"]
+      duration: "4-6 Months",
+      highlights: ["Financial Modelling", "Excel & Power BI ", "Forecasting Techniques", "Risk Analysis"]
     },
     {
       id: "marketingAnalytics",
       title: "Marketing Analytics Certification",
-      description: "Transform marketing strategies with data-driven insights using Google Analytics and social media metrics interpretation.",
+      description: "Gain insights into consumer behavior and digital marketing performance through data analysis. This course equips you with the tools to measure, track, and optimize marketing campaigns. ",
       icon: <FaUserTie className="text-3xl text-[#b42638]" />,
-      duration: "6 Months",
-      highlights: ["Customer Segmentation", "Campaign Analysis", "ROI Measurement", "Google Analytics"]
+      duration: "4-6 Months",
+      highlights: ["Consumer Behavior Analytics", "Digital Marketing Metrics", "Google Analytics", "Campaign Performance Optimization"]
     },
     {
       id: "webDevelopment",
       title: "Web Development Certification",
-      description: "Build modern, responsive websites and applications with HTML/CSS, JavaScript, and popular frameworks like React.",
+      description: "Learn full-stack web development using the latest front-end and back-end technologies. Build responsive, dynamic websites and applications ready for deployment.",
       icon: <FaLaptopCode className="text-3xl text-[#b42638]" />,
-      duration: "6 Months",
-      highlights: ["Frontend Development", "React.js", "Node.js", "Full Stack Projects"]
+      duration: "4-6 Months",
+      highlights: [" HTML, CSS, JS", "Responsive Design", "Backend", "Deployment"]
     },
     {
       id: "hrAnalytics",
       title: "HR Analytics Certification",
-      description: "Use data to optimize HR processes, measure employee engagement, and improve organizational performance.",
+      description: "Transform HR decision-making through data analysis. Learn to use analytics for workforce planning, performance tracking, and employee engagement strategies. ",
       icon: <FaUserTie className="text-3xl text-[#b42638]" />,
-      duration: "6 Months",
-      highlights: ["Employee Retention", "Workforce Analytics", "HR Metrics", "Data Visualization"]
+      duration: "4-6 Months",
+      highlights: ["Workforce Planning", "Predictive HR Metrics", "HR Dashboarding", "Talent Analytics"]
     },
     {
       id: "meanMern",
       title: "Certification in MEAN & MERN Stack",
-      description: "Build modern, responsive websites and web applications with cutting-edge technologies.",
+      description: "Specialize in full-stack JavaScript development using MEAN or MERN technologies. Build robust and scalable web applications from the ground up. ",
       icon: <FaCertificate className="text-3xl text-[#b42638]" />,
-      duration: "6 Months",
-      highlights: ["Anglular", "Node.js", "MongoDB", "Express.js"]
+      duration: "4-6 Months",
+      highlights: ["MongoDB ", "Express.js", "Angular/React", "Node.js"]
     }
   ];
 

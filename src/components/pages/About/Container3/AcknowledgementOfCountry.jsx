@@ -17,18 +17,19 @@ const AcknowledgementOfCountry = () => {
 
             <p className="text-lg text-gray-700 mb-6">
               At the International Institute of Data Intelligence (IIDI), we
-              believe true excellence in Data Science and Web Development begins
-              with respect — for people, diverse knowledge systems, and the
-              environments that shape the data we study. As a distinguished
-              institution committed to shaping the next generation of data and
-              technology professionals, we proudly uphold this legacy with
-              integrity and purpose.
+              acknowledge the traditional custodians of the land on which we
+              operate, and we pay our respects to the Aboriginal and Torres
+              Strait Islander peoples. We honor their enduring connection to the
+              land, waters, and culture, which has been passed down for
+              thousands of years.
             </p>
 
             <p className="text-lg text-gray-700 mb-8">
-              Our programs blend advanced technical training with a deep respect
-              for people and context—because true innovation in Data Science and
-              Web Development must be both forward-thinking and inclusive.
+              We recognize the invaluable knowledge systems and contributions of
+              Indigenous communities and are committed to integrating these
+              perspectives into our education. IIDI strives to foster an
+              inclusive environment where diversity, cultural awareness, and
+              reconciliation are prioritized in every learning experience
             </p>
           </div>
 
@@ -42,7 +43,9 @@ const AcknowledgementOfCountry = () => {
                 className="w-full h-64 object-cover"
               />
               <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white p-4">
-                <p className="text-sm">INTERNATIONAL INSTITUTE OF DATA INTELLIGENCE</p>
+                <p className="text-sm">
+                  INTERNATIONAL INSTITUTE OF DATA INTELLIGENCE
+                </p>
               </div>
             </div>
 

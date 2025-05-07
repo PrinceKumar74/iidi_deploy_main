@@ -1,99 +1,3 @@
-// import React from "react";
-// import { Star } from "lucide-react";
-
-// const testimonials = [
-//   {
-//     name: "John Doe",
-//     rating: 5,
-//     text: "This service exceeded my expectations. Everything was top-notch!",
-//   },
-//   {
-//     name: "Jane Smith",
-//     rating: 4,
-//     text: "Great experience overall. Just a few minor issues, but well handled!",
-//   },
-//   {
-//     name: "Carlos Ruiz",
-//     rating: 5,
-//     text: "Absolutely fantastic. Will recommend to others without hesitation.",
-//   },
-// ];
-
-// const StarRating = ({ rating }) => (
-//   <div className="flex flex-col">
-//     <div className="flex gap-1">
-//       {Array.from({ length: 5 }, (_, i) => (
-//         <Star
-//           key={i}
-//           size={18}
-//           className={
-//             i < rating ? "fill-[#b42638] text-[#b42638]" : "text-gray-300"
-//           }
-//         />
-//       ))}
-//     </div>
-//     <span className="text-sm text-gray-500 mt-1">
-//       {rating} out of 5 stars — based on client experience
-//     </span>
-//   </div>
-// );
-
-// const TestimonialsSection = () => {
-//   return (
-//     <section className="bg-black py-20 px-4 text-white">
-//       <div className="max-w-6xl mx-auto">
-//         <h2 className="text-4xl font-bold text-center mb-12">
-//           What Our Clients Say
-//         </h2>
-//         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-//           {testimonials.map((testimonial, index) => (
-//             <div
-//               key={index}
-//               className="bg-white text-black rounded-2xl shadow-lg p-6 hover:scale-[1.02] transition-transform duration-300"
-//             >
-//               <StarRating rating={testimonial.rating} />
-//               <p className="mt-4 text-lg leading-relaxed text-gray-700">
-//                 “{testimonial.text}”
-//               </p>
-//               <p className="mt-6 font-semibold text-[#b42638]">
-//                 — {testimonial.name}
-//               </p>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default TestimonialsSection;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 import React, { useState, useEffect } from "react";
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
@@ -102,33 +6,33 @@ import { motion, AnimatePresence } from "framer-motion";
 const testimonials = [
   {
     id: 1,
-    name: "Sanjana Singh",
+    name: "Ritika Sharma, Data Analyst – Bengaluru",
     rating: 5,
-    text: "What I loved most about the IIDI was the real projects. They taught me how to solve real-world problems.",
+    text: "IIDI’s Data Science certification helped me shift from a traditional analyst role to a data-driven position in a tech firm. The projects and mentorship were extremely valuable.",
   },
   {
     id: 2,
-    name: "Anmol Kumar",
-    rating: 4,
-    text: "Best Management and the faculty are so friendly to teach each topic with fabulous clarity. I secured my 1st job, thank you, IIDI team.",
+    name: "Ankit Mehra, Software Developer – Canada",
+    rating: 5,
+    text: "The Web Development course was very well-structured and covered both front-end and back-end in depth. Thanks to IIDI, I landed a full-stack developer job right after completing the course.",
   },
   {
     id: 3,
-    name: "Dhiraj Kumar",
-    rating: 5,
-    text: "I enrolled in the course of Data Science, and I can confidently say it’s been an excellent learning experience. The instructors are highly knowledgeable and give the actual real industry project to solve",
+    name: "Sanya Gupta, Financial Analyst – Singapore",
+    rating: 4,
+    text: "As a finance professional, I found the Financial Analytics program to be highly relevant. The Excel and Power BI modules helped me automate and optimize reporting tasks at work.",
   },
   {
     id: 4,
-    name: "Aditi Raj",
+    name: "Karan Verma, HR Executive – Ottawa, Canada",
     rating: 5,
-    text: "The atmosphere at the institute is welcoming and professional, I enrolled for Data Analytics, which I didn’t learn in 4 years of my B.Tech-course. I have learned it in 6 months. Also, I got 2 job offers from good startup companies. Thank you to all faculty of IIDI, you are all making the teaching top-notch level",
+    text: "I was impressed with the level of industry exposure in the HR Analytics course. It gave me the confidence to lead data initiatives within my HR team.",
   },
   {
     id: 5,
-    name: "Alok Tiwari",
-    rating: 4,
-    text: "I have completed my web development course from here, and one thing i would like to adress that, they go in very detail in each and every topic, that's what i like about this institute.",
+    name: "Neha Joshi, Marketing Analyst – Hyderabad, India",
+    rating: 5,
+    text: "The placement support was truly helpful. From resume reviews to mock interviews, IIDI prepared me for every step of the hiring process.",
   },
 ];
 

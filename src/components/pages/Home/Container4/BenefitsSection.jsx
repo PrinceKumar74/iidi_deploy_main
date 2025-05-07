@@ -2,28 +2,29 @@ import React from 'react';
 import { FiBookOpen, FiBriefcase, FiUsers, FiFile } from 'react-icons/fi'; // Icons
 
 const BenefitsSection = () => {
-  const benefits = [
-    {
-      icon: <FiBookOpen className="text-[#b42638] text-4xl" />,
-      title: "25+ Assignments with 24/7 Support",
-      description: "Work on 25+ Assignments with 24/7 Support.",
-    },
-    {
-      icon: <FiFile className="text-[#b42638] text-4xl" />,
-      title: "18+ Industry Relevant Real-life Data Projects",
-      description: "Get Industrial experience by working on real-life data projects.",
-    },
-    {
-      icon: <FiBriefcase className="text-[#b42638] text-4xl" />,
-      title: "Tied-up with 5000+ Companies",
-      description: "ExcelR has Tied up with 5000+ Companies to Provide Jobs to Many Students.",
-    },
-    {
-      icon: <FiUsers className="text-[#b42638] text-4xl" />,
-      title: "Job Readiness Program",
-      description: "A dedicated placement cell for the participants who completed the course.",
-    },
-  ];
+  
+const benefits = [
+  {
+    icon: <FiBookOpen className="text-[#b42638] text-4xl" />,
+    title: "Extensive Hands-On Assignments with Round-the-Clock Support",
+    description: "Strengthen your understanding through a wide range of practical assignments, backed by expert support available 24/7.",
+  },
+  {
+    icon: <FiFile className="text-[#b42638] text-4xl" />,
+    title: "Real-World Industry Projects",
+    description: "Gain practical experience by working on real-life projects that simulate industry challenges and data scenarios.",
+  },
+  {
+    icon: <FiBriefcase className="text-[#b42638] text-4xl" />,
+    title: "Strong Industry Connections",
+    description: "We maintain robust partnerships with a large network of hiring companies, helping connect skilled learners with career opportunities.",
+  },
+  {
+    icon: <FiUsers className="text-[#b42638] text-4xl" />,
+    title: "Comprehensive Job Readiness Program",
+    description: "Our dedicated placement support team assists certified learners with career preparation, including resume building, interview training, and job matching.",
+  },
+];
 
   return (
     <div className="bg-white py-16 px-4 sm:px-6 lg:px-8">

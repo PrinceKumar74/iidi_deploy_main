@@ -16,12 +16,14 @@ const HeroSection = () => {
           {/* Text content - left side */}
           <div className="lg:w-1/2 lg:pr-10 lg:text-left text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              <span className="block">Unlock Insights with</span>
-              <span className="text-[#b42638]">Human-Centric Data Science</span>
+              <span className="block">Empowering Tomorrow’s</span>
+              <span className="text-[#b42638]"> Innovators with IIDI 
+              </span>
             </h1>
             
             <p className="text-lg md:text-xl text-gray-300 max-w-2xl mb-8 lg:mx-0 mx-auto">
-              Turn data into decisions, drive growth, and power smarter business strategies today.
+            Build your career with hands-on training and industry-recognized certification in Data Science, Analytics,
+            and Business Intelligence. 
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">              

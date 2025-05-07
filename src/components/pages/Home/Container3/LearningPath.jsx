@@ -6,28 +6,28 @@ const LearningPath = () => {
   const steps = [
     {
       icon: <FaGraduationCap className="text-2xl text-[#b42638]" />,
-      title: "Get Trained",
-      description: "Comprehensive training from industry experts"
+      title: "Expert-Led Training ",
+      description: "Gain in-depth knowledge through structured learning delivered by seasoned industry professionals. "
     },
     {
       icon: <FaTasks className="text-2xl text-[#b42638]" />,
-      title: "Submit Assignments",
-      description: "Hands-on practice with graded assignments"
-    },
-    {
-      icon: <FaProjectDiagram className="text-2xl text-[#b42638]" />,
-      title: "Real Life Projects",
-      description: "Work on actual industry datasets and problems"
+      title: "Applied Assignments",
+      description: "Reinforce your learning with hands-on, graded assignments that build real-world problem-solving skills."
     },
     {
       icon: <FaUserTie className="text-2xl text-[#b42638]" />,
-      title: "Placement Support",
-      description: "Resume building and company connections"
+      title: "Industry Projects",
+      description: "Work on real-life business scenarios and datasets to strengthen your portfolio and practical experience."
     },
     {
       icon: <FaBriefcase className="text-2xl text-[#b42638]" />,
-      title: "Job Readiness",
-      description: "Soft skills and technical interview prep"
+      title: "Career Support Services ",
+      description: "Receive personalized guidance for resume writing, LinkedIn optimization, and job referrals."
+    },
+    {
+      icon: <FaProjectDiagram className="text-2xl text-[#b42638]" />,
+      title: "Job-Readiness Skills",
+      description: "Sharpen your communication, teamwork, and technical presentation skills for the workplace."
     }
   ];
 
@@ -86,9 +86,9 @@ const LearningPath = () => {
           <div className="flex justify-center mb-4">
             <MdOutlineInterests className="text-3xl text-[#b42638]" />
           </div>
-          <h3 className="text-2xl font-bold text-white mb-2">Intensive Interview Preparation</h3>
+          <h3 className="text-2xl font-bold text-white mb-2">Advanced Interview Preparation</h3>
           <p className="text-gray-300">
-            Mock interviews, coding challenges, and whiteboard sessions to prepare you for technical interviews
+          Ace your interviews with mock sessions, algorithm challenges, and technical whiteboarding practice. 
           </p>
         </div>
       </div>
