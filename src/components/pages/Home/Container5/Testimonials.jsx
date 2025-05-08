@@ -124,7 +124,7 @@ const TestimonialsSection = () => {
     <section className="bg-black py-20 px-4 text-white overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-12">
-          What Our Clients Say
+          Testimonials
         </h2>
 
         <div 
