@@ -121,10 +121,10 @@ const TestimonialsSection = () => {
   };
 
   return (
-    <section className="bg-black py-20 px-4 text-white overflow-hidden">
+    <section className="bg-[#dee4eb] py-20 px-4 text-black overflow-hidden">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-12">
-          Testimonials
+          Testimonialstext
         </h2>
 
         <div 

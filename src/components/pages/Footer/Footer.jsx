@@ -270,7 +270,7 @@ const Footer = () => {
 
   const handleSubscribe = async (e) => {
     e.preventDefault();
-    
+
     // Basic email validation
     if (!email) {
       setSubscriptionStatus('Please enter your email address');
@@ -287,11 +287,11 @@ const Footer = () => {
 
     try {
       if (!window.emailjs) {
-        await emailjs.init("nnmv2CxNUoAISj0m4"); 
+        await emailjs.init("nnmv2CxNUoAISj0m4");
       }
       const response = await emailjs.send(
-        "service_ylsl6kt", 
-        "template_7smeme2", 
+        "service_ylsl6kt",
+        "template_7smeme2",
         {
           email: email,
         }
@@ -420,7 +420,7 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-4">Get In Touch</h3>
             <div className="flex items-center mb-2">
               <FiPhoneCall className="text-[#b42638] mr-2" />
-              <span className="text-gray-400">+91 7251947000</span>
+              <span className="text-gray-400">+91 97619 54123</span>
             </div>
             <div className="flex items-center mb-4">
               <FiMail className="text-[#b42638] mr-2" />
@@ -429,16 +429,17 @@ const Footer = () => {
             <div className="flex items-center mb-4">
               <FaAddressBook className="text-[#b42638] mr-2" size={40} />
               <span className="text-gray-400">
-                India: Near Gaba Chowk, Kashipur Road, Rudrapur-263153, Distt.
-                Udham Singh Nagar
+
+                Address- Vijay Laxmi Enclave, Opposite St. Mary’s Senior School, Gangapur Road, Rudrapur, Uttarakhand, 263153
+
               </span>
             </div>
-            <div className="flex items-center mb-4">
+            {/* <div className="flex items-center mb-4">
               <FaAddressBook className="text-[#b42638] mr-2" size={33} />
               <span className="text-gray-400">
                 Australia : 1248 High St Rd, wantirna South vic 3152.
               </span>
-            </div>
+            </div> */}
           </div>
 
           {/* Column 4: Stay Connected */}
@@ -447,7 +448,7 @@ const Footer = () => {
             <p className="text-gray-400 mb-4">
               Get latest updates to your mailbox directly!
             </p>
-            
+
             {/* Subscription status messages */}
             {subscriptionStatus === 'success' && (
               <div className="mb-4 p-2 bg-green-800 text-white rounded-md">
@@ -472,9 +473,8 @@ const Footer = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className={`bg-[#b42638] text-white px-4 py-2 rounded-md hover:bg-[#8a1a2a] transition-colors duration-300 ${
-                  isSubmitting ? 'opacity-70 cursor-not-allowed' : ''
-                }`}
+                className={`bg-[#b42638] text-white px-4 py-2 rounded-md hover:bg-[#8a1a2a] transition-colors duration-300 ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''
+                  }`}
               >
                 {isSubmitting ? 'Sending...' : 'Subscribe'}
               </button>

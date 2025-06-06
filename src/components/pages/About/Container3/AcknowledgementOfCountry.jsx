@@ -1,6 +1,6 @@
 import Container3Pic1 from "../../../../assets/about/Container3Pic1.jpg";
 import Container3Pic2 from "../../../../assets/about/Container3Pic2.jpg";
-import Container3Pic3 from "../../../../assets/about/Container3Pic3.jpg";
+import Container3Pic3 from "../../../../assets/about/Container3Pic3.png";
 
 const AcknowledgementOfCountry = () => {
   return (

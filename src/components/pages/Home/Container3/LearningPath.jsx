@@ -5,45 +5,45 @@ import { MdOutlineInterests } from 'react-icons/md';
 const LearningPath = () => {
   const steps = [
     {
-      icon: <FaGraduationCap className="text-2xl text-[#b42638]" />,
+      icon: <FaGraduationCap className="text-2xl text-[#f5faff]" />,
       title: "Expert-Led Training ",
       description: "Gain in-depth knowledge through structured learning delivered by seasoned industry professionals. "
     },
     {
-      icon: <FaTasks className="text-2xl text-[#b42638]" />,
+      icon: <FaTasks className="text-2xl text-[#e5e7ea]" />,
       title: "Applied Assignments",
       description: "Reinforce your learning with hands-on, graded assignments that build real-world problem-solving skills."
     },
     {
-      icon: <FaUserTie className="text-2xl text-[#b42638]" />,
+      icon: <FaUserTie className="text-2xl text-[#e5e9ee]" />,
       title: "Industry Projects",
       description: "Work on real-life business scenarios and datasets to strengthen your portfolio and practical experience."
     },
     {
-      icon: <FaBriefcase className="text-2xl text-[#b42638]" />,
+      icon: <FaBriefcase className="text-2xl text-[#dde2e9]" />,
       title: "Career Support Services ",
       description: "Receive personalized guidance for resume writing, LinkedIn optimization, and job referrals."
     },
     {
-      icon: <FaProjectDiagram className="text-2xl text-[#b42638]" />,
+      icon: <FaProjectDiagram className="text-2xl text-[#dbe3ee]" />,
       title: "Job-Readiness Skills",
       description: "Sharpen your communication, teamwork, and technical presentation skills for the workplace."
     }
   ];
 
   return (
-    <div className="bg-black py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-[#dae0e8] py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-white mb-2">
-            <span className="text-[#b42638]">Learning</span> Path
+          <h2 className="text-3xl font-bold text-[#1c375b] mb-2">
+            <span className="text-[#870909]">Learning</span> Path
           </h2>
-          <div className="w-20 h-1 bg-[#b42638] mx-auto mt-4"></div>
+          <div className="w-20 h-1 bg-[#960707] mx-auto mt-4"></div>
         </div>
 
         <div className="relative">
           {/* Timeline line */}
-          <div className="hidden md:block absolute left-1/2 h-full w-0.5 bg-gray-700 transform -translate-x-1/2"></div>
+          <div className="hidden md:block absolute left-1/2 h-full w-0.5 bg-[#1c375b]  transform -translate-x-1/2"></div>
           
           <div className="space-y-8 md:space-y-0">
             {steps.map((step, index) => (
@@ -53,26 +53,26 @@ const LearningPath = () => {
               >
                 {/* For mobile */}
                 <div className="md:hidden flex items-start mb-4">
-                  <div className="bg-gray-800 p-3 rounded-full">
+                  <div className="bg-[#903333]  p-3 rounded-full">
                     {step.icon}
                   </div>
                 </div>
                 
                 {/* For desktop */}
                 <div className={`hidden md:flex w-1/2 ${index % 2 === 0 ? 'justify-end pr-8' : 'justify-start pl-8'}`}>
-                  <div className={`bg-gray-800 p-4 rounded-lg max-w-xs ${index % 2 === 0 ? 'text-right' : 'text-left'}`}>
+                  <div className={`bg-[#1c375b]   p-4 rounded-lg max-w-xs ${index % 2 === 0 ? 'text-right' : 'text-left'}`}>
                     <h3 className="text-xl font-bold text-white">{step.title}</h3>
                     <p className="text-gray-300 mt-2">{step.description}</p>
                   </div>
                 </div>
                 
                 {/* Center icon (desktop) */}
-                <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 bg-gray-800 p-3 rounded-full border-4 border-black z-10">
+                <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 bg-[#1c375b]  p-3 rounded-full border-4 border-black z-10">
                   {step.icon}
                 </div>
                 
                 {/* For mobile content */}
-                <div className="md:hidden w-full bg-gray-800 p-6 rounded-lg">
+                <div className="md:hidden w-full bg-[#1c375b]  p-6 rounded-lg">
                   <h3 className="text-xl font-bold text-white">{step.title}</h3>
                   <p className="text-gray-300 mt-2">{step.description}</p>
                 </div>
@@ -82,9 +82,9 @@ const LearningPath = () => {
         </div>
 
         {/* Intensive Interview Preparation */}
-        <div className="mt-16 text-center bg-gray-800 rounded-xl p-8 max-w-2xl mx-auto border-l-4 border-[#b42638]">
+        <div className="mt-16 text-center bg-[#1c375b]  rounded-xl p-8 max-w-2xl mx-auto border-l-4 border-[#b42638]">
           <div className="flex justify-center mb-4">
-            <MdOutlineInterests className="text-3xl text-[#b42638]" />
+            <MdOutlineInterests className="text-3xl text-[#1c4e91]" />
           </div>
           <h3 className="text-2xl font-bold text-white mb-2">Advanced Interview Preparation</h3>
           <p className="text-gray-300">

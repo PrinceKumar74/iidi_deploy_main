@@ -18,7 +18,7 @@ const CoursesSection = () => {
       id: "dataScience",
       title: "Data Science & AI Certification",
       description: "Master the fundamentals of data science, including Python programming, machine learning, and artificial intelligence",
-      icon: <FaChartLine className="text-3xl text-[#b42638]" />,
+      icon: <FaChartLine className="text-3xl bg-[#b50909] " />,
       duration: "4-6 Months",
       highlights: ["Python Programming", "Machine Learning", "Data Visualization", "Artificial Intelligence Applications"]
     },
@@ -26,7 +26,7 @@ const CoursesSection = () => {
       id: "financialAnalytics",
       title: "Financial Analytics Certification",
       description: "Learn to interpret financial data, build dynamic dashboards, and make informed business decisions using analytical tools. Ideal for finance professionals seeking to transition into data-driven roles.",
-      icon: <FaGraduationCap className="text-3xl text-[#b42638]" />,
+      icon: <FaGraduationCap className="text-3xl bg-[#b50909] " />,
       duration: "4-6 Months",
       highlights: ["Financial Modelling", "Excel & Power BI ", "Forecasting Techniques", "Risk Analysis"]
     },
@@ -34,7 +34,7 @@ const CoursesSection = () => {
       id: "marketingAnalytics",
       title: "Marketing Analytics Certification",
       description: "Gain insights into consumer behavior and digital marketing performance through data analysis. This course equips you with the tools to measure, track, and optimize marketing campaigns. ",
-      icon: <FaUserTie className="text-3xl text-[#b42638]" />,
+      icon: <FaUserTie className="text-3xl bg-[#b50909] " />,
       duration: "4-6 Months",
       highlights: ["Consumer Behavior Analytics", "Digital Marketing Metrics", "Google Analytics", "Campaign Performance Optimization"]
     },
@@ -42,7 +42,7 @@ const CoursesSection = () => {
       id: "webDevelopment",
       title: "Web Development Certification",
       description: "Learn full-stack web development using the latest front-end and back-end technologies. Build responsive, dynamic websites and applications ready for deployment.",
-      icon: <FaLaptopCode className="text-3xl text-[#b42638]" />,
+      icon: <FaLaptopCode className="text-3xl bg-[#b50909] " />,
       duration: "4-6 Months",
       highlights: [" HTML, CSS, JS", "Responsive Design", "Backend", "Deployment"]
     },
@@ -50,7 +50,7 @@ const CoursesSection = () => {
       id: "hrAnalytics",
       title: "HR Analytics Certification",
       description: "Transform HR decision-making through data analysis. Learn to use analytics for workforce planning, performance tracking, and employee engagement strategies. ",
-      icon: <FaUserTie className="text-3xl text-[#b42638]" />,
+      icon: <FaUserTie className="text-3xl bg-[#b50909] " />,
       duration: "4-6 Months",
       highlights: ["Workforce Planning", "Predictive HR Metrics", "HR Dashboarding", "Talent Analytics"]
     },
@@ -58,24 +58,24 @@ const CoursesSection = () => {
       id: "meanMern",
       title: "Certification in MEAN & MERN Stack",
       description: "Specialize in full-stack JavaScript development using MEAN or MERN technologies. Build robust and scalable web applications from the ground up. ",
-      icon: <FaCertificate className="text-3xl text-[#b42638]" />,
+      icon: <FaCertificate className="text-3xl bg-[#b50909] " />,
       duration: "4-6 Months",
       highlights: ["MongoDB ", "Express.js", "Angular/React", "Node.js"]
     }
   ];
 
   return (
-    <div className="bg-black/90 py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-[#dee4eb] py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Heading Section */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Explore Our <span className="text-[#b42638]">Certification Programs</span>
+          <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
+            Explore Our <span className="bg-[#b00909] ">Certification Programs</span>
           </h2>
-          <p className="text-lg text-gray-300 max-w-3xl mx-auto">
+          <p className="text-lg text-black-300 max-w-3xl mx-auto">
             Industry-relevant courses designed to give you the competitive edge in today's data-driven world.
           </p>
-          <div className="w-20 h-1 bg-[#b42638] mx-auto mt-6"></div>
+          <div className="w-20 h-1 bg-[#b00909]  mx-auto mt-6"></div>
         </div>
 
         {/* Courses Grid */}
@@ -83,7 +83,7 @@ const CoursesSection = () => {
           {courses.map((course) => (
             <div 
               key={course.id}
-              className="bg-gray-900 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-800 hover:border-[#b42638]/30 group"
+              className="bg-[#1f3857] rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-800 hover:border-[#b42638]/30 group"
             >
               <div className="p-6">
                 <div className="flex items-start mb-4">
@@ -92,7 +92,7 @@ const CoursesSection = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-white">{course.title}</h3>
-                    <div className="flex items-center mt-1 text-gray-400 text-sm">
+                    <div className="flex items-center mt-1 text-white-400 text-sm">
                       <FaClock className="mr-1" />
                       <span>{course.duration}</span>
                     </div>
@@ -102,11 +102,11 @@ const CoursesSection = () => {
                 <p className="text-gray-300 mb-4">{course.description}</p>
                 
                 <div className="mb-4">
-                  <h4 className="text-sm font-semibold text-[#b42638] mb-2">KEY TOPICS COVERED:</h4>
+                  <h4 className="text-sm font-semibold bg-[#ffffff]  mb-2">KEY TOPICS COVERED:</h4>
                   <ul className="grid grid-cols-2 gap-2">
                     {course.highlights.map((item, index) => (
                       <li key={index} className="flex items-center text-gray-300 text-sm">
-                        <span className="w-1.5 h-1.5 bg-[#b42638] rounded-full mr-2"></span>
+                        <span className="w-1.5 h-1.5 bg-[#2e7dc3]  rounded-full mr-2"></span>
                         {item}
                       </li>
                     ))}
@@ -114,7 +114,7 @@ const CoursesSection = () => {
                 </div>
                 
                 <div className="flex space-x-3">
-                  <button className="flex-1 py-2 bg-[#b42638] text-white font-medium rounded-lg hover:bg-[#8a1a2a] transition-colors duration-300" onClick={() => handleReadMore(course.id)}>
+                  <button className="flex-1 py-2 bg-[#2e7dc3] text-white font-medium rounded-lg hover:bg-[#8a1a2a] transition-colors duration-300" onClick={() => handleReadMore(course.id)}>
                     Learn More
                   </button>
                   <button className="flex-1 py-2 border border-gray-600 text-white font-medium rounded-lg hover:bg-gray-800 transition-colors duration-300" 

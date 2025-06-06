@@ -27,22 +27,22 @@ const benefits = [
 ];
 
   return (
-    <div className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-[#d9e0e8]  py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center justify-center"
+              className="bg-[#1c375b]  rounded-lg shadow-md p-6 flex flex-col items-center justify-center"
             >
               {/* Icon */}
               <div className="flex items-center justify-center mb-4">{benefit.icon}</div>
 
               {/* Title */}
-              <h3 className="text-xl font-bold text-center mb-2">{benefit.title}</h3>
+              <h3 className="text-xl text-white text-600 font-bold text-center mb-2">{benefit.title}</h3>
 
               {/* Description */}
-              <p className="text-gray-600 text-center">{benefit.description}</p>
+              <p className="text-white text-600 text-center">{benefit.description}</p>
             </div>
           ))}
         </div>

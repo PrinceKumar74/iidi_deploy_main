@@ -80,14 +80,14 @@ const BlogSection = () => {
   ];
 
   return (
-    <div className="bg-black py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-[#dee4eb] py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Heading Section */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
             Industry <span className="text-[#b42638]">Insights</span>
           </h2>
-          <p className="text-lg text-gray-300 max-w-3xl mx-auto">
+          <p className="text-lg text-black-300 max-w-3xl mx-auto">
             Latest trends, news and analysis from the world of business and technology
           </p>
           <div className="w-20 h-1 bg-[#b42638] mx-auto mt-6"></div>
