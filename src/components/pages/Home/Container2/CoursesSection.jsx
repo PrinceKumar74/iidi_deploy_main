@@ -18,7 +18,7 @@ const CoursesSection = () => {
       id: "dataScience",
       title: "Data Science & AI Certification",
       description: "Master the fundamentals of data science, including Python programming, machine learning, and artificial intelligence",
-      icon: <FaChartLine className="text-3xl bg-[#b50909] " />,
+      icon: <FaChartLine className="text-3xl bg-[#ffffff] " />,
       duration: "4-6 Months",
       highlights: ["Python Programming", "Machine Learning", "Data Visualization", "Artificial Intelligence Applications"]
     },
@@ -26,7 +26,7 @@ const CoursesSection = () => {
       id: "financialAnalytics",
       title: "Financial Analytics Certification",
       description: "Learn to interpret financial data, build dynamic dashboards, and make informed business decisions using analytical tools. Ideal for finance professionals seeking to transition into data-driven roles.",
-      icon: <FaGraduationCap className="text-3xl bg-[#b50909] " />,
+      icon: <FaGraduationCap className="text-3xl bg-[#ffffff] " />,
       duration: "4-6 Months",
       highlights: ["Financial Modelling", "Excel & Power BI ", "Forecasting Techniques", "Risk Analysis"]
     },
@@ -34,7 +34,7 @@ const CoursesSection = () => {
       id: "marketingAnalytics",
       title: "Marketing Analytics Certification",
       description: "Gain insights into consumer behavior and digital marketing performance through data analysis. This course equips you with the tools to measure, track, and optimize marketing campaigns. ",
-      icon: <FaUserTie className="text-3xl bg-[#b50909] " />,
+      icon: <FaUserTie className="text-3xl bg-[#ffffff] " />,
       duration: "4-6 Months",
       highlights: ["Consumer Behavior Analytics", "Digital Marketing Metrics", "Google Analytics", "Campaign Performance Optimization"]
     },
@@ -42,7 +42,7 @@ const CoursesSection = () => {
       id: "webDevelopment",
       title: "Web Development Certification",
       description: "Learn full-stack web development using the latest front-end and back-end technologies. Build responsive, dynamic websites and applications ready for deployment.",
-      icon: <FaLaptopCode className="text-3xl bg-[#b50909] " />,
+      icon: <FaLaptopCode className="text-3xl bg-[#ffffff] " />,
       duration: "4-6 Months",
       highlights: [" HTML, CSS, JS", "Responsive Design", "Backend", "Deployment"]
     },
@@ -50,7 +50,7 @@ const CoursesSection = () => {
       id: "hrAnalytics",
       title: "HR Analytics Certification",
       description: "Transform HR decision-making through data analysis. Learn to use analytics for workforce planning, performance tracking, and employee engagement strategies. ",
-      icon: <FaUserTie className="text-3xl bg-[#b50909] " />,
+      icon: <FaUserTie className="text-3xl bg-[#ffffff] " />,
       duration: "4-6 Months",
       highlights: ["Workforce Planning", "Predictive HR Metrics", "HR Dashboarding", "Talent Analytics"]
     },
@@ -58,24 +58,24 @@ const CoursesSection = () => {
       id: "meanMern",
       title: "Certification in MEAN & MERN Stack",
       description: "Specialize in full-stack JavaScript development using MEAN or MERN technologies. Build robust and scalable web applications from the ground up. ",
-      icon: <FaCertificate className="text-3xl bg-[#b50909] " />,
+      icon: <FaCertificate className="text-3xl bg-[#ffffff] " />,
       duration: "4-6 Months",
       highlights: ["MongoDB ", "Express.js", "Angular/React", "Node.js"]
     }
   ];
 
   return (
-    <div className="bg-[#dee4eb] py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-[#ffffff] py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Heading Section */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">
-            Explore Our <span className="bg-[#b00909] ">Certification Programs</span>
+            Explore Our <span className="bg-[#ffffff] ">Certification Programs</span>
           </h2>
           <p className="text-lg text-black-300 max-w-3xl mx-auto">
             Industry-relevant courses designed to give you the competitive edge in today's data-driven world.
           </p>
-          <div className="w-20 h-1 bg-[#b00909]  mx-auto mt-6"></div>
+          <div className="w-20 h-1 bg-[#ffffff]  mx-auto mt-6"></div>
         </div>
 
         {/* Courses Grid */}

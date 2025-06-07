@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const HeroSection = () => {
   const navigate = useNavigate();
   return (
-    <section className="relative bg-gradient-to-r from-gray-900 to-[#b42638]/90 text-white overflow-hidden">
+    <section className="relative bg-gradient-to-r from-red-200 to-[#ffffff]/90  text-black overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-[url('/path/to/tech-pattern.svg')] bg-repeat"></div>
@@ -27,7 +27,7 @@ const HeroSection = () => {
               <span className="text-[#b42638]">Launchpad in Delhi/NCR</span>
             </h1>
             
-            <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-lg">
+            <p className="text-lg md:text-xl text-black-300 mb-8 max-w-lg">
               Your one-stop solution for the first step towards an exciting tech career. 
               Join our industry-ready programs designed to fast-track your first job.
             </p>
@@ -38,7 +38,7 @@ const HeroSection = () => {
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </button>
               
-              <button className="flex items-center justify-center px-8 py-4 bg-transparent border-2 border-white hover:bg-white/10 text-white font-semibold rounded-lg transition-all duration-300">
+              <button className="flex items-center justify-center px-8 py-4 bg-transparent border-2 border-black hover:bg-white/10 text-black font-semibold rounded-lg transition-all duration-300">
                 Explore Programs
               </button>
             </div>

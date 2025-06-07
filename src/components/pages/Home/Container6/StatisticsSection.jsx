@@ -44,7 +44,7 @@ const StatisticsSection = () => {
           <div className="relative overflow-hidden p-6 sm:p-8 text-center border-t-0 border-l-0 border-[#b42638] group">
             <div className="absolute inset-0 bg-[#ac0b19] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-[2000ms] ease-in-out"></div>
             <div className="relative z-10 text-3xl sm:text-4xl font-bold text-gray-900 mb-2 group-hover:text-black transition-all duration-300">
-              10 Thousand+
+              10k+
             </div>
             <div className="relative z-10 text-xs sm:text-sm font-medium text-black-500 uppercase tracking-wider group-hover:text-black transition-all duration-300">
             TRAINING HOURS COMPLETED

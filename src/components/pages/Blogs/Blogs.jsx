@@ -80,7 +80,7 @@ const BlogSection = () => {
   ];
 
   return (
-    <div className="bg-[#dee4eb] py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-[#ffffff] py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Heading Section */}
         <div className="text-center mb-16">

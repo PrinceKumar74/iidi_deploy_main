@@ -3,7 +3,7 @@ import aboutHeroSection from "../../../../assets/about/aboutHeroSection.png";
 const AboutHeroSection = () => {
   return (
     <section
-      className="relative py-24 px-4 text-white bg-black/80"
+      className="relative py-24 px-4 text-black bg-center bg-opacity/80"
       style={{
         backgroundImage: `url(${aboutHeroSection})`,
         backgroundSize: "cover",

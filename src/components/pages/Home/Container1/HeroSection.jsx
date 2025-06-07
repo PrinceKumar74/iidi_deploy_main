@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const HeroSection = () => {
   const navigate = useNavigate();
   return (
-    <div className="relative bg-[#dee4eb]  text-black min-h-[86vh] flex items-center">
+    <div className="relative bg-[#ffffff]  text-black min-h-[86vh] flex items-center">
       {/* Decorative elements */}
       <div className="absolute inset-0 overflow-hidden opacity-20">
         <div className="absolute top-20 left-10 w-32 h-32 bg-[#ffffff] rounded-full mix-blend-overlay"></div>

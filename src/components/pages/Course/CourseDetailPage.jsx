@@ -145,11 +145,11 @@ const CourseDetailPage = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-gray-900 to-[#b42638]/90 py-20 text-white">
+      <div className="relative bg-gradient-to-r from-red-200 to-[#00004]/90 py-20 text-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-bold">{course.title}</h1>
-            <p className="mt-4 text-xl text-gray-300 max-w-3xl mx-auto">
+            <p className="mt-4 text-xl text-black-300 max-w-3xl mx-auto">
               {course.description1}
             </p>
           </div>
